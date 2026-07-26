@@ -1,3 +1,4 @@
+
 cat > README.md << 'EOF'
 # Java Bank Management System
 
@@ -84,3 +85,11 @@ A console-based banking application developed using Java that simulates real-wor
 ```bash
 git clone https://github.com/jayasreekomaripalam-netizen148/Java-Bank-Management-System.git
 
+
+
+
+
+## Download
+
+Download the latest executable JAR:
+https://github.com/jayasreekomaripalam-netizen148/Java-Bank-Management-System/releases
