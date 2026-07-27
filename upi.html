@@ -11,68 +11,86 @@
 
 <header>
 <div class="container">
+
 <h1>🏦 Java Bank Management System</h1>
 
 <nav>
 <a href="index.html">Home</a>
+<a href="login.html">Login</a>
 <a href="dashboard.html">Dashboard</a>
 <a href="accounts.html">Accounts</a>
 <a href="transactions.html">Transactions</a>
 <a href="loan.html">Loans</a>
 <a href="upi.html">UPI</a>
+<a href="fixeddeposit.html">Fixed Deposit</a>
+<a href="atm.html">ATM</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
 </nav>
+
 </div>
 </header>
 
 <section class="hero">
-<h2>UPI Payment</h2>
-<p>Fast, secure and easy digital payments.</p>
+<h2>UPI Services</h2>
+<p>Fast, secure and instant digital payments.</p>
 </section>
 
-<div class="features">
-
-<div class="card">
-<h3>📱 UPI ID</h3>
-<p>jayasree@bank</p>
-</div>
+<section class="features">
 
 <div class="card">
 <h3>💸 Send Money</h3>
-<p>Transfer money instantly using UPI.</p>
-<button class="btn">Send</button>
+<p>Transfer money instantly using a UPI ID.</p>
+<a href="#" class="btn">Send</a>
 </div>
 
 <div class="card">
 <h3>📥 Receive Money</h3>
-<p>Share your UPI ID to receive payments.</p>
-<button class="btn">Receive</button>
+<p>Receive payments using your UPI ID or QR Code.</p>
+<a href="#" class="btn">Receive</a>
 </div>
 
 <div class="card">
-<h3>📷 QR Code</h3>
-<p>Scan & Pay using any UPI app.</p>
-<button class="btn">View QR</button>
+<h3>📱 Scan & Pay</h3>
+<p>Pay merchants securely using QR code scanning.</p>
+<a href="#" class="btn">Scan QR</a>
 </div>
 
 <div class="card">
-<h3>📜 Recent Payment</h3>
-<p>₹750 paid to Grocery Store</p>
-<p>Status: ✅ Success</p>
+<h3>💰 Check Balance</h3>
+<p>View your linked bank account balance.</p>
+<a href="#" class="btn">Check</a>
 </div>
 
-<div class="card">
-<h3>🛡 Secure Payments</h3>
-<p>Protected with UPI PIN verification.</p>
-</div>
+</section>
 
-</div>
+<div style="width:80%;max-width:600px;margin:auto;">
 
-<div style="text-align:center;margin:30px;">
-<a href="dashboard.html" class="btn">⬅ Back to Dashboard</a>
+<form>
+
+<h2>UPI Transfer</h2>
+
+<label>Receiver UPI ID</label>
+<input type="text" placeholder="example@upi">
+
+<label>Amount</label>
+<input type="number" placeholder="Enter Amount">
+
+<label>Remarks</label>
+<input type="text" placeholder="Payment description">
+
+<button class="btn">Pay Now</button>
+
+</form>
+
 </div>
 
 <footer>
-<p>© 2026 Java Bank Management System | Developed by Jayasree</p>
+
+<p>© 2026 Java Bank Management System</p>
+
+<p>Developed by Jayasree</p>
+
 </footer>
 
 </body>
