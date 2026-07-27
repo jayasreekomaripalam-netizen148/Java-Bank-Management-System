@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Loan Services</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
+
 <header>
+
 <div class="container">
+
 <h1>🏦 Java Bank Management System</h1>
 
 <nav>
 <a href="index.html">Home</a>
-<a href="login.html">Login</a>
 <a href="dashboard.html">Dashboard</a>
 <a href="accounts.html">Accounts</a>
 <a href="transactions.html">Transactions</a>
@@ -23,71 +30,148 @@
 <a href="upi.html">UPI</a>
 <a href="fixeddeposit.html">Fixed Deposit</a>
 <a href="atm.html">ATM</a>
-<a href="about.html">About</a>
 <a href="contact.html">Contact</a>
 </nav>
 
 </div>
+
 </header>
 
+
+
 <section class="hero">
+
 <h2>Loan Services</h2>
-<p>Choose the loan that best suits your needs.</p>
+
+<p>Choose the right loan plan for your needs.</p>
+
 </section>
+
+
 
 <section class="features">
 
+
 <div class="card">
 <h3>🏠 Home Loan</h3>
-<p>Affordable interest rates for purchasing your dream home.</p>
+<p>Low interest rates with flexible repayment.</p>
 </div>
+
 
 <div class="card">
 <h3>🚗 Vehicle Loan</h3>
-<p>Finance your new car or bike with flexible repayment options.</p>
+<p>Finance your dream vehicle easily.</p>
 </div>
+
 
 <div class="card">
 <h3>🎓 Education Loan</h3>
-<p>Support your higher education with convenient loan plans.</p>
+<p>Support your higher education goals.</p>
 </div>
+
 
 <div class="card">
 <h3>💼 Personal Loan</h3>
-<p>Quick approval with simple documentation.</p>
+<p>Quick approval with simple process.</p>
 </div>
+
 
 </section>
 
-<div style="width:80%;max-width:600px;margin:auto;">
 
-<form>
 
-<h2>Apply for a Loan</h2>
 
-<label>Full Name</label>
-<input type="text" placeholder="Enter your name">
+<section class="card" style="margin:40px;">
 
-<label>Loan Type</label>
-<input type="text" placeholder="Home / Vehicle / Education / Personal">
+
+<h2>📊 EMI Calculator</h2>
+
 
 <label>Loan Amount</label>
-<input type="number" placeholder="Enter amount">
 
-<label>Mobile Number</label>
-<input type="text" placeholder="Enter mobile number">
+<input type="number" id="loanAmount"
+placeholder="Enter loan amount">
 
-<button class="btn">Submit Application</button>
 
-</form>
+<label>Interest Rate (%)</label>
 
-</div>
+<input type="number" id="interestRate"
+placeholder="Enter interest rate">
+
+
+<label>Loan Period (Years)</label>
+
+<input type="number" id="loanYears"
+placeholder="Enter years">
+
+
+
+<button class="btn" onclick="calculateEMI()">
+
+Calculate EMI
+
+</button>
+
+
+<h3 id="emiResult"></h3>
+
+
+</section>
+
+
+
+
+
+<section class="card" style="margin:40px;">
+
+
+<h2>✅ Loan Eligibility</h2>
+
+
+<p>
+Minimum requirements:
+</p>
+
+
+<ul>
+
+<li>Age above 21 years</li>
+
+<li>Stable income source</li>
+
+<li>Good credit history</li>
+
+<li>Valid documents</li>
+
+</ul>
+
+
+<br>
+
+
+<a href="contact.html" class="btn">
+Apply Now
+</a>
+
+
+</section>
+
+
+
 
 <footer>
+
 <p>© 2026 Java Bank Management System</p>
+
 <p>Developed by Jayasree</p>
+
 </footer>
 
-</body>
-</html>
 
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
