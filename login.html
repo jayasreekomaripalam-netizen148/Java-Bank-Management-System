@@ -1,80 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Login - Java Bank Management System</title>
+
+<title>Bank Login</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
+
 <header>
+
 <div class="container">
 
 <h1>🏦 Java Bank Management System</h1>
 
 <nav>
+
 <a href="index.html">Home</a>
 <a href="login.html">Login</a>
-<a href="dashboard.html">Dashboard</a>
-<a href="accounts.html">Accounts</a>
-<a href="transactions.html">Transactions</a>
-<a href="loan.html">Loans</a>
-<a href="upi.html">UPI</a>
-<a href="fixeddeposit.html">Fixed Deposit</a>
-<a href="atm.html">ATM</a>
-<a href="about.html">About</a>
+<a href="register.html">Register</a>
 <a href="contact.html">Contact</a>
+
 </nav>
 
 </div>
+
 </header>
 
+
+
 <section class="hero">
-<h2>Customer Login</h2>
-<p>Sign in to access your banking services.</p>
+
+<h2>Secure Banking Login</h2>
+
+<p>Access your account safely</p>
+
 </section>
 
-<div style="max-width:450px;margin:40px auto;">
+
+
+<div style="width:90%;max-width:450px;margin:40px auto;">
+
 
 <form>
 
-<label><strong>Username</strong></label>
-<input type="text" placeholder="Enter Username">
 
-<label><strong>Password</strong></label>
-<input type="password" placeholder="Enter Password">
+<h2 style="text-align:center;">
+🔐 Login
+</h2>
+
 
 <label>
-<input type="checkbox">
-Remember Me
+Username
 </label>
 
+<input 
+type="text"
+id="username"
+placeholder="Enter username">
+
+
+
+<label>
+Password
+</label>
+
+
+<input 
+type="password"
+id="password"
+placeholder="Enter password">
+
+
+
+<label>
+
+<input type="checkbox" onclick="showPassword()">
+
+Show Password
+
+</label>
+
+
 <br><br>
 
-<button class="btn" style="width:100%;">Login</button>
+
+<button 
+type="button"
+class="btn"
+onclick="loginUser()">
+
+Login
+
+</button>
+
 
 <br><br>
 
-<p style="text-align:center;">
-<a href="#">Forgot Password?</a>
+
+<p>
+
+<a href="register.html">
+Create New Account
+</a>
+
 </p>
 
-<p style="text-align:center;">
-New Customer?
-<a href="#">Register Here</a>
+
+<p>
+
+<a href="#">
+Forgot Password?
+</a>
+
 </p>
+
+
 
 </form>
 
+
 </div>
 
+
+
 <footer>
-<p>© 2026 Java Bank Management System</p>
-<p>Developed by Jayasree</p>
+
+<p>
+© 2026 Java Bank Management System
+</p>
+
+<p>
+Developed by Jayasree
+</p>
+
 </footer>
 
+
+
+<script src="script.js"></script>
+
+
 </body>
+
 </html>
 
