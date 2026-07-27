@@ -1,4 +1,4 @@
-// Java Bank Management System JavaScript
+docume// Java Bank Management System JavaScript
 
 
 // Login Validation
@@ -116,6 +116,12 @@ else{
 password.type="password";
 
 }
+
+}
+
+function darkMode(){
+
+document.body.classList.toggle("dark");
 
 }
 

@@ -320,3 +320,20 @@ footer{
 }
 
 }
+.dark{
+background:#121212;
+color:white;
+}
+
+.dark .card,
+.dark form,
+.dark table{
+background:#1e1e1e;
+color:white;
+}
+
+.dark header,
+.dark footer{
+background:#000;
+}
+

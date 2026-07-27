@@ -22,17 +22,15 @@
 
 <h1>🏦 Java Bank Management System</h1>
 
-
 <nav>
 
 <a href="index.html">Home</a>
 <a href="dashboard.html">Dashboard</a>
 <a href="accounts.html">Accounts</a>
 <a href="transactions.html">Transactions</a>
-<a href="loan.html">Loans</a>
 <a href="upi.html">UPI</a>
+<a href="loan.html">Loans</a>
 <a href="atm.html">ATM</a>
-<a href="contact.html">Contact</a>
 
 </nav>
 
@@ -44,9 +42,13 @@
 
 <section class="hero">
 
-<h2>Welcome, Jayasree 👋</h2>
+<h2>Welcome Back, Jayasree 👋</h2>
 
-<p>Your personal banking dashboard</p>
+<p>Your smart digital banking dashboard</p>
+
+<button class="btn" onclick="darkMode()">
+🌙 Dark Mode
+</button>
 
 </section>
 
@@ -58,52 +60,56 @@
 
 <div class="card">
 
+<h3>👤 Profile</h3>
+
+<p>
+Name: Jayasree
+</p>
+
+<p>
+Account: Savings
+</p>
+
+<p>
+Status: Active ✅
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
 <h3>💰 Available Balance</h3>
 
 <h2>₹50,000</h2>
 
-<p>Savings Account</p>
+<p>
+Updated Today
+</p>
 
 </div>
+
 
 
 
 <div class="card">
 
-<h3>📄 Account Number</h3>
+<h3>💳 Account Number</h3>
 
-<h2>1234567890</h2>
+<h2>****7890</h2>
 
-<p>Active Account</p>
-
-</div>
-
-
-
-<div class="card">
-
-<h3>💳 ATM Card</h3>
-
-<h2>Active</h2>
-
-<p>**** **** **** 4589</p>
+<p>
+Secure Account
+</p>
 
 </div>
 
-
-
-<div class="card">
-
-<h3>📈 Credit Score</h3>
-
-<h2>780</h2>
-
-<p>Excellent</p>
-
-</div>
 
 
 </section>
+
 
 
 
@@ -115,9 +121,11 @@
 
 <h3>💸 Send Money</h3>
 
-<p>Transfer money instantly.</p>
+<p>
+Transfer money instantly
+</p>
 
-<a class="btn" href="transactions.html">
+<a href="transactions.html" class="btn">
 Transfer
 </a>
 
@@ -129,13 +137,16 @@ Transfer
 
 <h3>📱 UPI Payment</h3>
 
-<p>Pay using UPI services.</p>
+<p>
+Fast digital payments
+</p>
 
-<a class="btn" href="upi.html">
-Pay Now
+<a href="upi.html" class="btn">
+Pay
 </a>
 
 </div>
+
 
 
 
@@ -143,9 +154,11 @@ Pay Now
 
 <h3>🏦 Apply Loan</h3>
 
-<p>Choose suitable loan plans.</p>
+<p>
+Easy loan application
+</p>
 
-<a class="btn" href="loan.html">
+<a href="loan.html" class="btn">
 Apply
 </a>
 
@@ -153,13 +166,16 @@ Apply
 
 
 
+
 <div class="card">
 
 <h3>📈 Fixed Deposit</h3>
 
-<p>Grow your savings.</p>
+<p>
+Grow your savings
+</p>
 
-<a class="btn" href="fixeddeposit.html">
+<a href="fixeddeposit.html" class="btn">
 Invest
 </a>
 
@@ -167,7 +183,6 @@ Invest
 
 
 </section>
-
 
 
 
@@ -180,10 +195,9 @@ Invest
 
 <table>
 
-
 <tr>
 <th>Date</th>
-<th>Type</th>
+<th>Transaction</th>
 <th>Amount</th>
 <th>Status</th>
 </tr>
@@ -192,7 +206,7 @@ Invest
 <tr>
 <td>27 July</td>
 <td>UPI Payment</td>
-<td>₹1500</td>
+<td>₹1,500</td>
 <td>Completed</td>
 </tr>
 
@@ -200,15 +214,15 @@ Invest
 <tr>
 <td>26 July</td>
 <td>Deposit</td>
-<td>₹10000</td>
+<td>₹10,000</td>
 <td>Completed</td>
 </tr>
 
 
 <tr>
 <td>25 July</td>
-<td>Withdrawal</td>
-<td>₹2000</td>
+<td>ATM Withdrawal</td>
+<td>₹2,000</td>
 <td>Completed</td>
 </tr>
 
@@ -223,14 +237,22 @@ Invest
 
 <footer>
 
-<p>© 2026 Java Bank Management System</p>
+<p>
+© 2026 Java Bank Management System
+</p>
 
-<p>Developed by Jayasree</p>
+<p>
+Developed by Jayasree
+</p>
 
 </footer>
 
 
 
+<script src="script.js"></script>
+
+
 </body>
 
 </html>
+
